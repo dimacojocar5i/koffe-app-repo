@@ -4,10 +4,10 @@ public class ConcetrationException  extends Exception{
 
     public ConcetrationException(int t, String msg) {
         super(msg);
-        this.c = t;
+        this.c = c;
     }
 
-    public int getT() {
+    public int getC() {
         return c;
     }
 }
